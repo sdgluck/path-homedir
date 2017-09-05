@@ -1,6 +1,6 @@
 {
   "name": "path-homedir",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a path in the user home directory",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   },
   "keywords": [
     "resolve",
+    "get",
     "path",
     "home",
     "dir",

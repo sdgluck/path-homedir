@@ -30,9 +30,9 @@ var homedir = require('path-homedir')
 
 ### `homedir([path]) : String`
 
-Resolve a path from within the user's home directory.
+Get a path in the user's home directory.
 
-- __path__ {String} _(optional)_ path to resolve in the home directory
+- __path__ {String} _(optional)_ path to get in the home directory
 
 Returns a string.
 
@@ -43,6 +43,10 @@ import homedir from 'path-homedir'
 
 homedir('pineapple') //=> C:/User/Spongebob Squarepants/pineapple
 ```
+
+## See also
+
+- [`path-cwd`](https://github.com/sdgluck/path-cwd)
 
 ## Contributing
 

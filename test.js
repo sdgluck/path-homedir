@@ -2,7 +2,7 @@ const path = require('path')
 const osHomedir = require('os-homedir')
 const homedir = require('./')
 
-describe('resolve-homedir', () => {
+describe('path-homedir', () => {
   it('throws with bad path', () => {
     expect(() => homedir(0)).toThrowError(/expecting path to be string/i)
   })
