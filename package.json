@@ -1,0 +1,33 @@
+{
+  "name": "path-homedir",
+  "version": "1.0.0",
+  "description": "Get a path in the user home directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdgluck/path-homedir.git"
+  },
+  "keywords": [
+    "resolve",
+    "path",
+    "home",
+    "dir",
+    "user"
+  ],
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdgluck/path-homedir/issues"
+  },
+  "homepage": "https://github.com/sdgluck/path-homedir#readme",
+  "dependencies": {
+    "os-homedir": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^21.0.1"
+  }
+}
