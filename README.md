@@ -32,7 +32,7 @@ var homedir = require('path-homedir')
 
 Resolve a path from within the user's home directory.
 
-- __path__ {String} (required) path to resolve in the home directory
+- __path__ {String} _(optional)_ path to resolve in the home directory
 
 Returns a string.
 
