@@ -47,6 +47,7 @@ homedir('pineapple') //=> C:/User/Spongebob Squarepants/pineapple
 ## See also
 
 - [`path-cwd`](https://github.com/sdgluck/path-cwd)
+- [`path-__dirname`](https://github.com/sdgluck/path-__dirname)
 
 ## Contributing
 
