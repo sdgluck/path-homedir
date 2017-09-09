@@ -1,5 +1,7 @@
-const _path = require('path')
-const homedir = require('os-homedir')
+'use strict'
+
+var resolve = require('path').resolve
+var homedir = require('os-homedir')
 
 module.exports = function pathHomedir (path) {
   path = typeof path === 'undefined' ? '' : path
@@ -8,5 +10,5 @@ module.exports = function pathHomedir (path) {
     throw new Error('Expecting path to be string, got "' + typeof path + '".')
   }
 
-  return _path.resolve(homedir(), path)
+  return resolve(homedir(), path)
 }
